@@ -1,0 +1,16 @@
+.top-container {
+  margin-bottom: 20px;
+}
+.top-container img {
+  width: 100%;
+}
+
+@media (min-width: 800px){
+  .top-container p {
+    position: absolute;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+  }
+}

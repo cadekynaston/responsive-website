@@ -1,0 +1,36 @@
+
+.nav-items {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.logo {
+  display:none;
+}
+
+.nav-items a {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid black;
+}
+.logo{
+
+}
+
+
+@media (min-width: 700px){
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-items {
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: flex-end;
+  }
+  .logo {
+    display:unset;
+  }
+}
